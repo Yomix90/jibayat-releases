@@ -51,8 +51,6 @@ Pour installer ou mettre à jour **JIBAYAT**, téléchargez le package d'install
 Pour toute demande de licence officielle, démonstration ou support technique :
 
 * **Développeur** : Youssef
-* **📞 Téléphone / WhatsApp** : [+212 662-082795](https://wa.me/212662082795)
-* **📧 Email** : [yomix90@gmail.com](mailto:yomix90@gmail.com)
 
 ---
 *© 2026 JIBAYAT — Tous droits réservés.*
