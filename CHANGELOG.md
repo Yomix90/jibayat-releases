@@ -1,5 +1,13 @@
 # JIBAYAT — Historique des Versions (CHANGELOG)
 
+## v1.0.0 — 2026-09-12
+
+### 🏛️ Version Officielle de Production & Déploiement Unifié
+- **Assistant d'installation dynamique (`JIBAYAT_Setup.exe`)** : Bootstrapper connecté en temps réel aux GitHub Releases.
+- **Unification du script de build (`build.bat`)** : Centralisation complète de toutes les opérations de build, compilation Nuitka C++, packaging, initialisation DB et publication.
+- **Sécurité et protection du code source** : Chiffrement AES-256 des templates Jinja2 (`ui_bundle.pack`), isolation cryptographique locale et base de données SQLCipher/SQLite.
+- **Gestion fiscale communale complète** : TNB, TDB, séjours touristiques, domaine public communal, marchés et régie des recettes.
+
 ## v1.5.2 — 2026-08-21
 
 ### 📐 Calculs Fiscaux & TNB
