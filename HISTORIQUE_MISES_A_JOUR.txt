@@ -1,0 +1,75 @@
+================================================================================
+           🏛️ JIBAYAT — HISTORIQUE OFFICIEL DES MISES À JOUR (CHANGELOG)
+================================================================================
+Développeur Concepteur : Youssef Ouhchouch (USFOU / Yomix90)
+Téléphone / WhatsApp    : +212 662-082795
+Courriel Officiel       : yomix90@gmail.com
+Dépôt GitHub Releases   : https://github.com/Yomix90/jibayat-releases
+Dépôt Source Principal  : https://github.com/Yomix90/JIBAYAT
+================================================================================
+
+--------------------------------------------------------------------------------
+VERSION 1.0.0 — [06 Septembre 2026] — VERSION OFFICIELLE DE PRODUCTION
+--------------------------------------------------------------------------------
+📦 TYPE DE RELEASE : Déploiement Majeur & Synchronisation Continue GitHub Releases
+
+✨ NOUVEAUTÉS & ARCHITECTURE DE DÉPLOIEMENT :
+• Assistant d'Installation Web Dynamique (JIBAYAT_Setup.exe) :
+  - Exécutable ultra-léger de 15.49 Mo agissant comme un véritable bootstrapper web.
+  - Interrogation en temps réel de l'API GitHub Releases (Yomix90/jibayat-releases/releases/latest).
+  - Garantie de fraîcheur : Tout utilisateur télécharge et installe toujours la dernière version disponible en ligne.
+  - Téléchargement en streaming par blocs avec calcul de vitesse (Mo/s) et jauge de progression en direct.
+• Déploiement Natif Complet (app_payload.zip) :
+  - 197 fichiers et dossiers compilés en code C/C++ natif (Nuitka + Zig compiler).
+  - Extraction intégrale de JIBAYAT.exe, des 36 DLLs système Windows, de ui_bundle.pack et des dossiers static/.
+• Sécurité & Confidentialité 100% Locale :
+  - Chiffrement AES-256 des 104 templates Jinja2 scellés dans ui_bundle.pack.
+  - Stockage des données fiscales 100% sur le poste de travail ou serveur de la commune (fiscalite.db).
+  - Sauvegarde de sécurité pré-déploiement automatique dans le sous-dossier sauvegardes/.
+  - Aucune perte de contribuables, de déclarations ni de paiements lors des mises à jour.
+• Licence & Activation :
+  - Contrat de licence d'utilisation officiel (EULA) avec validation obligatoire.
+  - Période officielle d'évaluation de 30 jours scellée par empreinte cryptographique de machine (machine_id).
+  - Support de l'activation permanente par clé asymétrique scellée par le développeur.
+• Système Fiscal Intégré :
+  - Taxe sur les terrains urbains non bâtis (TNB).
+  - Taxe sur les débits de boissons (TDB).
+  - Taxe sur les séjours et établissements touristiques.
+  - Occupation temporaire du domaine public communal (ODP).
+  - Marchés, souks hebdomadaires et abattoirs.
+  - Stationnement et droits de fourrière.
+  - Régie des recettes, états financiers et titres de recettes officiels.
+
+--------------------------------------------------------------------------------
+VERSION 1.5.2 — [21 Août 2026]
+--------------------------------------------------------------------------------
+📐 CALCULS FISCAUX & TNB :
+• Calcul précis des pénalités de retard (0.5% par mois) selon la Loi 47-06.
+• Majoration et arrondi automatique au centime supérieur pour tous les montants.
+• Sauvegardes pré-mise à jour isolées dans le sous-dossier sauvegardes/ avec rotation.
+• Mutex d'instance unique pour éviter le lancement en double de l'application.
+
+--------------------------------------------------------------------------------
+VERSION 1.5.1 — [20 Août 2026]
+--------------------------------------------------------------------------------
+🎨 INTERFACE & EXPÉRIENCE UTILISATEUR :
+• Amélioration du design et correction des ombres au survol des boutons.
+• Badge de mise à jour dynamique dans la barre latérale avec statut en direct.
+• Support du téléchargement direct des fichiers d'installation autonomes.
+• Séparation du dépôt public des releases (jibayat-releases) pour préserver le code source.
+
+--------------------------------------------------------------------------------
+VERSION 1.5.0 — [20 Août 2026]
+--------------------------------------------------------------------------------
+🔒 SÉCURITÉ & MISES À JOUR AUTOMATIQUES (OTA) :
+• Suppression des identifiants par défaut et renforcement de l'accès administrateur.
+• Clés de chiffrement sécurisées et protection du fichier de configuration config.json.
+• Cookies de session HTTPS sécurisés (SESSION_COOKIE_SECURE).
+• Module de vérification des mises à jour périodiques via GitHub Releases (updater.py).
+• Notification administrative des mises à jour disponibles dans le tableau de bord web.
+• Export et migration du schéma de base de données sans interruption de service.
+
+================================================================================
+Pour toute demande de support technique, de mise à jour ou de licence permanente :
+👨‍💻 Youssef Ouhchouch (USFOU / Yomix90)  |  📞 WhatsApp : +212 662-082795
+================================================================================
